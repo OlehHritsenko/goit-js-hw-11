@@ -61,12 +61,12 @@ p {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     cursor: pointer;
-    transition: background-color 300ms linear, color 300ms linear;
+    transition: 300ms linear, color 300ms linear;
 }
 
-.search-form__button:hover,
-.search-form__button:focus {
-    background-color: #0f3443;
+.search-form button:hover,
+.search-form button:focus {
+    background-color: #8997d6;
     color: #ffffff;
 }
 
